@@ -1,0 +1,352 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Semana Santa</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp2.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.iconos-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/sustitucion.jpg','imagenes/semanasanta7.jpg')">
+<!-- Principal -->
+
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Semana Santa</h1>
+   </div>
+   <div data-role="main" class="ui-content">
+          <div align="center">
+           <img src="imagenes/letrero.jpg" width="80%" height="25%">
+         </div>
+      
+<div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>El significado de la Semana Santa</h2>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Domingo de Pascua</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Como se establece la Semana Santa</h2>
+       </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Celebracion en Atlixco</h2>
+       </a>
+     </li>
+   
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Celebracion en Iztapalapa</h2>
+       </a>
+      </li>
+      
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Celebracion en Vaticano</h2>
+       </a>
+      </li>
+ 
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Celebracion en Jerusalen</h2>
+       </a>
+      </li>
+     
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Celebracion en Michoacan</h2>
+       </a>
+      </li>
+    </ul>
+    </div>
+</div> <!-- content main-->
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+       <img src="imagenes/persona_rosa.png" width="46" height="46">
+   </div>
+   <div>
+     <h4>Aplicacion Dos</h4>
+     <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+</div> 
+<!--Principal-->
+<!--Pag 1-->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Significado de Semana Santa</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+        <h2>Semana Santa, conocida como semana mayor, es un período de 7 días que comienza con el Domingo de Ramos y culmina con el Domingo de Resurrección. Con la Semana Santa, el cristiano conmemora el Triduo Pascual, es decir, los momentos de la Pasión, la Muerte y la Resurrección de Jesucristo.</h2>
+        </div>
+        <div>
+        <img src="imagenes/img1.png" width="200" height="100">
+        <h2>La Semana Santa, es el tiempo para dedicarse a la oración y reflexionar en Jesucristo, en los momentos del Triduo Pascual, quien con su infinita misericordia, decide tomar el lugar del hombre y recibir el castigo para liberarlo de los pecados. Asimismo, es el tiempo ideal para el ser humano meditar sobre sus acciones y los cambios que debe realizar para acercarse más a Dios y cumplir con sus mandamientos.
+
+Durante la Semana Santa, el católico cumple con diversos actos, como: procesiones, escenificación del drama de la muerte y pasión de Cristo. Los penitentes se someten a duras cargas como símbolo de su auto sacrificio y, en el día Viernes Santo, los fieles deben de guardar ayuno y abstenerse de comer carne.</h2>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/sustitucion.jpg',1)"><img src="imagenes/oracion.jpeg" width="186" height="110" id="Image13"></a>
+<h2> La Semana Santa está precedida por la Cuaresma que se refiere al tiempo de preparación donde se recuerda los 40 días de Jesucristo en el desierto. Las celebraciones centrales de la Semana Santa son: Jueves Santo, Viernes Santo, Sábado Santo y Domingo de Resurrección.</h2>
+<br>
+<img src="imagenes/CUARESMA.jpg" width="200" height="100">
+        </div>
+
+</div>
+     <div data-role="collapsible">
+     <h2>Jueves Santo</h2>
+     <div align="center">
+     <p>El Jueves Santo celebra la última cena de Jesús de Nazaret con sus discípulos, la institución de la eucaristía, la orden sacerdotal y, el lavatorio de pies. En este día, los católicos realizan la visita de los siete templos o iglesias, con el objetivo de agradecer a Dios el don de la eucaristía y sacerdocio.</p>
+     <br>
+     <img src="imagenes/semana santa9.png" width="200" height="100">
+     </div>
+     </div>
+     <div data-role="collapsible">
+     <h2>Viernes Santo</h2>
+     <div align="center">
+     <p>El Viernes Santo, recuerda la Pasión de Cristo, momento de su crucifixión en el Calvario, por salvar al hombre del pecado y darle vida entera. Se celebra con un viacrucis y con la adoración de la Cruz.  </p>
+     <br>
+     <img src="imagenes/Crucifixion.jpg" width="200" height="100">
+   </div>
+   </div>
+     <div data-role="collapsible">
+     <h2>Sabado Santo</h2>
+     <div align="center">
+     <p>Se conoce como Sábado Santo el día entre la muerte y la resurrección de Jesús. En este día, se lleva a cabo una vigilia pascual, en la cual se acostumbra bendecir el agua y encender las velas en señal de la Resurrección de Jesús.</p>
+     <img src="imagenes/vigilia.jpg" width="200" height="100">
+     </div>
+     </div>
+      <div data-role="collapsible">
+     <h2>Domingo Santo</h2>
+     <div align="center">
+     <p>El Domingo Santo, conocido como Domingo de Pascua. En el Domingo Santo, se conmemora la resurrección de Jesucristo al tercer día después de su crucifixión y, su primera aparición a los discípulos. Este día es de suma alegría para los fieles y, es interpretado como la esperanza de una nueva vida.</p>
+     <br>
+     <img src="imagenes/domingo.jpg" width="200" height="100">
+     </div>
+     </div>
+     <div data-role="footer" data-theme="a">
+  
+        <h4>Nancy Lizbeth Reyes Jimenez</h4>
+   </div>
+</div>
+
+       
+<!--Pag 1-->
+<!-- pag 2-->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Domingo de Pascua</h1>
+    </div>
+    
+    <div data-role="content" align="center">
+     <div>
+        <h2>Domingo de Ramos es el último día de la Cuaresma y el primer día de Semana Santa. En el Domingo de Ramos, los cristianos conmemoran la entrada de Jesús en Jerusalén, montado en un asno, aclamado como hijo de Dios, días antes de su pasión, muerte y resurrección.
+
+Los fieles seguidores de Jesús lo recibieron extendiendo sus mantos por el camino o ramas de oliva (árbol típico de donde vivió Jesús) y palmas, mientras lo aclamaban rey y gritaban ¡Bendito el que viene en el nombre del Señor!, ¡Hosanna en las alturas!, es de resaltar, que la palabra “hosanna” significa “vida”.
+
+La eucaristía del día Domingo de Ramos vive dos momentos importantes: al principio, con la procesión de las palmas y,  la bendición de las mismas por parte del sacerdote en cuanto dirige la procesión y, por último, la palabra que evoca la Pasión del Señor, en el evangelio de San Mateo. El color litúrgico de Domingo de Ramos es el rojo, ya que se conmemora la Pasión del Señor.</h2>
+
+     
+        <img src="imagenes/semana-santa8.png" width="200" height="100">
+</div>
+</div>
+   <div data-role="footer" data-theme="a">
+      <h4>Nancy Lizbeth Reyes Jimenez</h4>
+    </div>
+</div>
+
+<!-- pag 2-->
+<!-- pag 3 -->
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Como se establece la Semana Santa</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+        <h2>Probablemente usted habrá notado que la fecha de la Semana Santa varía considerablemente de un año al siguiente. Esta fecha se escoge a partir de una fórmula establecida por el Emperador Romano Constantino el Grande y el Concilio de Nicea en 325 d. C. Usted puede usar la fórmula para verificar la fecha de Pascua cada año.
+        En primer lugar debe hallar el equinocio vernal, o primer día de primavera ( alrededor del 21- 22 de marzo ), en un calendario que incluya datos astronómicos básicos. Después busque la siguiente luna llena, normalmente está indicada en una esquina del calendario. La Semana Santa caerá el domingo siguiente.
+
+De acuerdo con esta regla, la fecha más tardía posible para Semana Santa sería el 25 de Abril, la próxima ocurrencia será en 2038. La más temprana el 22 de Marzo, en 2285. La mayoría de las veces, la Semana Santa cae durante la primera semana de Abril.</h2>
+     </div>
+</div>
+   <div data-role="footer" data-theme="a">
+      <h4>Nancy Lizbeth Reyes Jiménez</h4>
+    </div>
+</div>
+
+<!-- pag 3 -->
+<!-- pag 4 -->
+
+
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Celebración en Atlixco</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+        <h2>Durante la temporada vacacional de Semana Santa que se lleva a cabo en el municipio de Atlixco, el alcalde Ricardo Camacho Corripio dio a conocer las tradiciones de fe que distinguen a la entidad que, aunado a los diversos atractivos que la región ofrece, permitirá atraer más de 80 mil visitantes en estos días. Lo anterior representa un impacto en la economía de las familias de la entidad —de manera directa e indirecta— pues se calcula se tenga una derrama económica mayor a los 20 millones de personas.</h2>
+        <h2>Cabe precisar que en la “Procesión de los Engrillados” los participantes se caracterizan por vestir de luto y portar pesadas cadenas de aproximadamente 60 kilos, además de ponerse espinas en el cuerpo. Ellos recorren las principales calle de la ciudad y tienen una preparación, tanto espiritual como física de dos meses. Se realizará también el viernes 6 de abril.</h2>
+       <h2>Asimismo, Camacho Corripio invitó a todos los poblanos y personas de otros estados vecinos a admirar el tapete monumental de “Flores de Primavera”, el cual fue hecho con más de 160 mil plantas y con imágenes alusivas a esta temporada de Semana Santa, y otro con diseños representativos de Atlixco.</h2>
+        <table width="332" height="213" border="1">
+          <tr>
+            <td width="147" height="105"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/sema33.jpg',1)"><img src="imagenes/letrero.jpg" width="156" height="103" id="Image12"></a></td>
+            <td width="169"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/semanasanta7.jpg',1)"><img src="imagenes/letrero.jpg" width="167" height="108" id="Image28"></a></td>
+          </tr>
+          <tr>
+            <td height="95"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/semana santa1.png',1)"><img src="imagenes/letrero.jpg" width="154" height="96" id="Image14"></a></td>
+            <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/tapete.jpg',1)"><img src="imagenes/letrero.jpg" width="166" height="94" id="Image15"></a></td>
+          </tr>
+      </table>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/semana-santa3.png',1)"><img src="imagenes/letrero.jpg" width="166" height="96" id="Image16"></a></p>
+                    
+         
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+     </div>
+     </div>
+   <div data-role="footer" data-theme="a">
+      <h4>Nancy Lizbeth Reyes Jiménez</h4>
+    </div>
+</div>
+
+<!-- pag 4--> 
+<!-- pag 5 -->
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Celebracion en Iztapalapa</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+        <h2>Los episodios más importantes tienen lugar el Domingo de Ramos con la Procesión y la Bendición de las Palmas; el Jueves Santo en el Jardín Cuitláhuac, y el Viernes Santo con la secuencia de la sentencia, los azotes, la coronación de espinas y el Vía Crucis que culmnina en el Cerro de la Estrella con la crucifixión. Al conocerse los días en que va a caer la Semana Mayor, comienzan los preparativos y se selecciona a los protagonistas del drama, quienes inician los ensayos desde enero. </h2>
+        <img src="imagenes/izta.jpg" width="47%" height="14%">
+        <h2> El Domingo de Ramos, las casas y las calles se llenan de flores, las campanas se echan a vuelo, y un ángel con un niño inician la procesión que avanza lentamente. Los cientos de nazarenos llevan adornos de bandas blancas sobre las túnicas moradas; las vírgenes y las mujeres del pueblo adornan sus cabezas con coronas de flores, la Virgen, la Magdalena, llevan atuendos únicos. Por momentos Iztapalapa se transforma en Jerusalén, la multitud se dirige al barrio de San Lucas para que el sacerdote bendiga las palmas, los ramos de manzanilla, romero y laurel </h2>
+        <img src="imagenes/iztapalapa.jpg"width="50%" height="14%">
+        <h2>El Jueves Santo, los adornos en las calles son de color blanco y morado; los actores llegan al lugar donde han ensayado; llena de flores y frutas está la cárcel que Cristo ocupará más tarde. De una casa, sale la procesión que inician el niñoy el ángel, después las vírgenes, Jesús, los nazarenos, los sacerdotes y dignatarios romanos, flanqueados por los soldados. La procesión recorre las calles de los ocho barrios, y llega hasta la iglesia del Señor de la Cuevita, donde los presentes quieren tocar la urna y pedir gracias. Los nazarenos, que suman cientos, ahora llevan una corona de espinas con flores en la cabeza. Después de la alocución del obispo en la iglesia, continúa la escena de la última Cena en el Jardín Cuitláhuac; sigue el Lavatorio de los Pies; el Prendimiento, y la Oración del Huerto. Los parlamentos no coinciden con la Sagrada Escritura, se han transformado al correr de los años según el gusto de losparticipantes; lo mismo sucede con otros episodios que los lugareños han agregado.  </h2>
+        <img src="imagenes/Semana-Santa_6.png"width="41%" height="12%"></div>
+   
+</div>
+   <div data-role="footer" data-theme="a">
+      <h4>Nancy Lizbeth Reyes Jiménez</h4>
+    </div>
+</div>
+<!-- pag 5 -->
+<!-- pag 6 -->
+
+
+
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Celebracion en Vaticano</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+        <h2>Los episodios más importantes tienen lugar el Domingo de Ramos con la Procesión y la Bendición de las Palmas; el Jueves Santo en el Jardín Cuitláhuac, y el Viernes Santo con la secuencia de la sentencia, los azotes, la coronación de espinas y el Vía Crucis que culmnina en el Cerro de la Estrella con la crucifixión. Al conocerse los días en que va a caer la Semana Mayor, comienzan los preparativos y se selecciona a los protagonistas del drama, quienes inician los ensayos desde enero. </h2>
+        <img src="imagenes/va.jpg" width="50%" height="16%">
+        <h2> El Domingo de Ramos, las casas y las calles se llenan de flores, las campanas se echan a vuelo, y un ángel con un niño inician la procesión que avanza lentamente. Los cientos de nazarenos llevan adornos de bandas blancas sobre las túnicas moradas; las vírgenes y las mujeres del pueblo adornan sus cabezas con coronas de flores, la Virgen, la Magdalena, llevan atuendos únicos. Por momentos Iztapalapa se transforma en Jerusalén, la multitud se dirige al barrio de San Lucas para que el sacerdote bendiga las palmas, los ramos de manzanilla, romero y laurel </h2>
+        <img src="imagenes/vatica.jpg"width="50%" height="17%">
+        <h2>El Jueves Santo, los adornos en las calles son de color blanco y morado; los actores llegan al lugar donde han ensayado; llena de flores y frutas está la cárcel que Cristo ocupará más tarde. De una casa, sale la procesión que inician el niñoy el ángel, después las vírgenes, Jesús, los nazarenos, los sacerdotes y dignatarios romanos, flanqueados por los soldados. La procesión recorre las calles de los ocho barrios, y llega hasta la iglesia del Señor de la Cuevita, donde los presentes quieren tocar la urna y pedir gracias. Los nazarenos, que suman cientos, ahora llevan una corona de espinas con flores en la cabeza. Después de la alocución del obispo en la iglesia, continúa la escena de la última Cena en el Jardín Cuitláhuac; sigue el Lavatorio de los Pies; el Prendimiento, y la Oración del Huerto. Los parlamentos no coinciden con la Sagrada Escritura, se han transformado al correr de los años según el gusto de losparticipantes; lo mismo sucede con otros episodios que los lugareños han agregado.  </h2>s
+        <img src="imagenes/Semana-Santa_6.png"width="37%" height="14%">
+        <img src="imagenes/semana-santa2.png" width="23" height="14%"swidth="50%">
+     </div>
+    </div>
+   <div data-role="footer" data-theme="a">
+      <h4>Nancy Lizbeth Reyes Jiménez</h4>
+    </div>
+</div>
+<!-- pag 6 -->
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Celebracion en Jerusalen</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+        <h2>Cómo se celebra la Semana Santa en Jerusalén
+La historia bíblica cuenta que en Jerusalén vivió y murió Jesucristo, lo que otorga a esta ciudad mucha importancia para esta religión -- al igual que para la judía y el islam--. Fue precisamente en la capital de Israel donde Jesucristo vivió el Vía Crucis, el camino hacia el Gólgota donde fue crucificado, que es lo que se conmemora durante la Semana Santa. </h2>
+       
+        <h2>DOMINGO DE RAMOS EN JERUSALÉN Al igual que en España, en Jerusalén se celebra una procesión para conmemorar la 'entrada triunfal de Jesús' en la ciudad: rememorando cuando fue recibido con palmas y ramas de olivo. Desde el Monte de los Olivos hasta la zona antigua de la ciudad, la comitiva comienza por la tarde en la Iglesia de Betfagé, continúa por Getsemaní y concluye en el casco histórico. Tras esta celebración hay que esperar al jueves siguiente, 2 de abril, para que continúen las tradiciones de Pascua en la Ciudad. </h2>
+        <img src="imagenes/jerusalen.jpg"width="50%" height="17%">
+        <h2>JUEVES SANTO En la mañana del Jueves Santo el Patriarca Latino de Jerusalén celebra a las 8.00 horas la Institución de la Eucaristía en el Santo Sepulcro y por la tarde, a las 15.30 horas, los Franciscanos efectúan su peregrinación tradicional al Cenáculo (la Sala Superior) en el Monte Sion. Por la noche, a partir de las 21.00 horas, peregrinos y cristianos locales velan durante una hora de meditación en el Huerto de Getsemaní. A este acto le sigue una procesión a la luz de velas hacia la iglesia de San Pedro en Gallicantu, que según la tradición es el lugar en el que Jesús pasó la noche después de ser arrestado.  </h2>
+        <img src="imagenes/jueves santo.jpg"width="37%" height="14%">
+        <h2>Viernes Santo: Desde las primeras horas del Viernes Santo se desarrollan diferentes procesiones a lo largo de la llamada Via Dolorosa: se conmemoran la Pasión del Señor y la crucifixión en el Calvario, seguidas del Vía Crucis. Ya en la tarde se celebra, como en España, el 'Santo Entierro', procesión en la Iglesia del Santo Sepulcro para representar el entierro de Jesucristo tras su muerte.</h2>
+   <img src="imagenes/viernes.jpg" width="177" height="11%"swidth="50%">
+
+<h2>SÁBADO SANTO La mañana del Sábado Santo se lleva a cabo, también en la Iglesia del Santo Sepulcro, la misa de la vigilia de Pascua. Cuando llega la tarde se celebran también servicios religiosos en el Jardín de la Tumba, lugar en el que los cristianos anglicanos sitúan el nicho de Jesucristo.</h2>
+
+<h2>DOMINGO DE RESURRECCIÓN El 'día grande' de la Pascua y Semana Santa llega el Domingo de Resurrección. Durante la jornada se llevan a cabo celebraciones y misas con lectura del Evangelio en varias lenguas, así como una procesión hasta la Iglesia del Santo Sepulcro.</h2>
+     </div>
+    </div>
+   <div data-role="footer" data-theme="a">
+      <h4>Nancy Lizbeth Reyes Jiménez</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Celebracion en Michoacan</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+        <h2>En michoacan por, el viernes por la mañana podemos observar a los “penitentes”, que salen a pagar sus promesas al Señor del Santo Entierro, castigando sus tobillos con el peso de grilletes que se dicen originales de la conquista, traídos por los europeos para esclavizar, y actualmente son objetos rigurosamente custodiados que se usan para validar una practica de expiación y manifestación de la fe a través del sacrificio corporal.
+Por todo el estado, en cada pueblo, ciudad o tenencia se realizan magníficas representaciones del Vía Crucis, se ofrece deliciosa comida tradicional de la temporada, se venden bellas artesanías y sobre todo se disfruta la hospitalidad de este pueblo.
+ </h2>
+ <img src="imagenes/letre.jpg"width="50%" height="17%">
+<h2>Desde el Domingo de Ramos, artesanos de todo el Estado hacen gala de su talento en el ya tradicional Tianguis Artesanal de Uruapan, el más grande de América Latina.
+Serás testigo de un gran número de representaciones con las que en todo nuestro Estado se conmemora la pasión, muerte y resurrección de Jesucristo. No te puedes perder el Viacrucis por las principales calles de las poblaciones, la imponente procesión del silencio en la ciudad de Morelia y las misas de sábado de gloria y domingo de resurrección que tiene un toque especial en cada una de nuestras comunidades.
+ </h2>
+        <img src="imagenes/templo.jpg"width="50%" height="17%">
+        <img src="imagenes/michoacan.jpg"width="50%" height="17%">
+     </div>
+    </div>
+   <div data-role="footer" data-theme="a">
+      <h4>Nancy Lizbeth Reyes Jiménez</h4>
+    </div>
+</div>
+
+
+</body>
+</html>
